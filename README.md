@@ -4,10 +4,12 @@ Version control system is a tools that helps to track changes in code.
 1. Track the history
 2. Collaborate
 
+<br>
 What is github?
 Website that allows developers to stor eand manage their code using git.
+<br>
 
-Explain the basic git commands.
+# Explain the basic git commands.
 git --version // Check the git version
 <br>
 ls/ls -a // check list of file
@@ -22,6 +24,9 @@ git config --global user.email "Sandeep@email.com"// set the git user email
 <br>
 git config -- list // Check the setting or status of name /email /etc.
 <br>
+
+# Clone and Status
+<br>
 git clone (github link) // clone the github repository on our local machine.
 <br>
 cd / cd .. // change directory
@@ -34,15 +39,24 @@ git status -- 1. untrached // new file that git doesn't yet track.
 <br>
 4. unmodified  // unchanged
 <br>
+
+# Add and Commit
+<br>
 git add (file name) / git add . // adds new or changed files in your working directory to the git staging area.
 <br>
 git commit -m "add all changed file" // it is the record of change.
+<br>
+
+# Push Command
 <br>
 git push origin main // upload local repo content to remote repo. // remote -- github // local -- laptop/pc. // main -- is branch // origin -- is name 
 <br>
 git push -u  origin main // after this u can use git push only this is also working. // -u -- set upstream.
 <br>
 2nd Method to insert the code.
+<br>
+
+# Init Commands
 <br>
 git init // used to create a new git repo
 <br>
@@ -80,11 +94,35 @@ Create a  pull request // it lets you tell others about changes you've pushed to
 <br>
 git pull origin main  // used to fetch and download content from a remote repo and immediately update the local repo to match that content.
 <br>
+
+# Resolving Merge Conflicts
+<br>
 Resolving merge conflicts -- //An event that takes place when git is unable to automatically reslove difference in code b/w two commits.
 <br>
 
-# demo
+# undoing Changes
 <br>
+Case 1 :
+Staged Changes 
+1. git reset (file name) // undo for perticular file.
+2. git reset // undo all the file.
+
+<br>
+Case 2 :
+  Commited changes // for one commit.  
+  git reset HEAD~1
+<br>
+
+Case 3:
+   Commited changes // for many commits
+   git reset (commit hash) // only for github changes.
+   git reset --hard (commit hash) // also for vs code.
+
+<br>
+git log // to check all the commits.
+
+
+
 
 
 
