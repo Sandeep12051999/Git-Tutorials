@@ -70,9 +70,9 @@ git diff (branch name) // to compare commits, branches, files and more.
 <br>
 git merge (branch name)  // to merge 2 branches.
 <br>
-# pull Command
+# pull Command / Create Pull
 <br>
-Create a  pull request // it lets you tell others about changes you're pushed to a branch in a repository on github.
+Create a  pull request // it lets you tell others about changes you've pushed to a branch in a repository on github.
 <br>
 git pull origin main  // used to fetch and download content from a remote repo and immediately update the local repo to match that content.
 <br>
