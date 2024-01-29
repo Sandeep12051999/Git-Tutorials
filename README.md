@@ -56,6 +56,7 @@ git branch // to check branch
 <br>
 git branch -M main // to rename branch // main-- in place u can give your new branch name.
 <br>
+
 # Branch Commands
 <br>
 git checkout (branch name)  // to navigate 
@@ -64,15 +65,15 @@ git checkout -b (new branch name) // to create new branch
 <br>
 git checkout -d (branch name)  // to delete branch
 <br>
-# MERGING CODE
+
+# Merging Code
 <br>
 git diff (branch name) // to compare commits, branches, files and more.
 <br>
 git merge (branch name)  // to merge 2 branches.
 <br>
 
-# pull Command / Create Pull
-# pull Command / Pull Request
+# Pull Command / Create Pull
 
 <br>
 Create a  pull request // it lets you tell others about changes you've pushed to a branch in a repository on github.
