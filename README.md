@@ -56,7 +56,7 @@ git branch // to check branch
 <br>
 git branch -M main // to rename branch // main-- in place u can give your new branch name.
 <br>
-#Branch Commands
+# Branch Commands
 <br>
 git checkout (branch name)  // to navigate 
 <br>
@@ -64,7 +64,7 @@ git checkout -b (new branch name) // to create new branch
 <br>
 git checkout -d (branch name)  // to delete branch
 <br>
-#MERGING CODE
+# MERGING CODE
 <br>
 git diff (branch name) // to compare commits, branches, files and more.
 <br>
