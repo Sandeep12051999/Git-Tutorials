@@ -40,7 +40,7 @@ git commit -m "add all changed file" // it is the record of change.
 <br>
 git push origin main // upload local repo content to remote repo. // remote -- github // local -- laptop/pc. // main -- is branch // origin -- is name 
 <br>
-git push -u  origin main // after this u can use git push only this is also working.
+git push -u  origin main // after this u can use git push only this is also working. // -u -- set upstream.
 <br>
 2nd Method to insert the code.
 <br>
@@ -76,7 +76,8 @@ Create a  pull request // it lets you tell others about changes you're pushed to
 <br>
 git pull origin main  // used to fetch and download content from a remote repo and immediately update the local repo to match that content.
 <br>
-
+Resolving merge conflicts -- //An event that takes place when git is unable to automatically reslove difference in code b/w two commits.
+<br>
 
 
 
